@@ -203,7 +203,7 @@ color: #f4f4f4;
 section#About {
     padding: 40px;
     text-align:left;
-    background-color: #E0F7FA; /* light sea color */
+    background-color: #ffffff;
 }
 
 #About h2 {
@@ -212,9 +212,42 @@ section#About {
     margin-bottom: 60px;
     text-align: center;
 }
+.Aboutglobal
+{
+    display: flex;
+    flex-direction: row;
+}
 
+.About1{
+    display: flex;
+    flex-direction: column;
+}
+.About11
+{
+    border: solid 2px;
+    height: 35px;
+    width: 200px;
+    text-align: center;
+    margin-left: 145px;
+    margin-bottom: 55px;
+}
+.About2{
+    /* background-color: blue; */
+}
+.About12{
 
-
+    display: flex;
+}
+.About12 h3
+{
+    color: rgb(59, 117, 243);
+    padding-bottom: 20px;
+    text-align: center;
+}
+.About12 p
+{
+    text-align: center;
+}
 section#contact {
     padding: 40px;
     text-align:left;
