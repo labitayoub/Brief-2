@@ -199,6 +199,101 @@ color: #f4f4f4;
 }
 
 
+
+section#About {
+    padding: 40px;
+    text-align:left;
+    background-color: #E0F7FA; /* light sea color */
+}
+
+#About h2 {
+    color: #060606;
+    font-size: 28px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+
+
+section#contact {
+    padding: 40px;
+    text-align:left;
+    background-color: rgb(255, 255, 255); /* light sea color */
+}
+
+#contact h2 {
+    color: #060606;
+    font-size: 28px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 30px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    word-spacing: 6px; /* Adjust this value as needed */
+    line-height: 30px;
+
+}
+.contact-back {
+    background: white;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content:center;
+    gap: 90px;
+    padding: 5em;
+    
+
+}
+.contact-1 form
+{
+background-color: rgba(225, 214, 214, 0.3);
+padding: 23px;
+border-radius: 9px;
+display: flex;
+flex-direction: column;
+}
+.contact-1
+{
+ width: 380px;
+}
+.contact-2 img
+{
+height: 450px;
+width: 500px;
+   
+}
+.btnsubmit{
+    height: 29px;
+    width: 334px;
+    color: white;
+    border-radius: 6px;
+    background-color: #1e0f0f;
+}
+.btnbuy
+{
+    background-color: #c1be1f;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 13px;
+    border-radius: 13px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+.btnbuy a{
+    text-decoration: none;
+}
+input{
+    height: 29px;
+    width: 334px;
+}
 /* Footer */
 footer {
     background-color:#0288D1 ;
@@ -240,83 +335,6 @@ footer {
 footer p {
     margin: 0;
     font-size: 0.9em;
-}
-
-section#About {
-    padding: 40px;
-    text-align:left;
-    background-color: #E0F7FA; /* light sea color */
-}
-
-#About h2 {
-    color: #060606;
-    font-size: 28px;
-    margin-bottom: 60px;
-    text-align: center;
-}
-
-#About p {
-    font-size: 16px;
-    color: #000000;
-    margin-bottom: 30px;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    word-spacing: 6px; /* Adjust this value as needed */
-    line-height: 30px;
-
-}
-
-section#contact {
-    padding: 40px;
-    text-align:left;
-    background-color: rgb(255, 255, 255); /* light sea color */
-}
-
-#contact h2 {
-    color: #060606;
-    font-size: 28px;
-    margin-bottom: 60px;
-    text-align: center;
-}
-
-#contact p {
-    font-size: 16px;
-    color: #000000;
-    margin-bottom: 30px;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    word-spacing: 6px; /* Adjust this value as needed */
-    line-height: 30px;
-
-}
-.contact-back {
-    background: white;
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: space-between;
-    padding: 5em;
-    
-
-}
-.contact-1 form
-{
-background-color: rgba(209, 201, 201, 0.3);
-padding: 2em;
-border-radius: 5px;
-display: flex;
-flex-direction: column;
-}
-.contact-1
-{
-    /* flex-basis: 30%; */
-}
-.contact-2 img
-{
-height: 450px;
-width: 300;
-    /* flex-basis: 30%; */
 }
 
 
