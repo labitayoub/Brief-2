@@ -270,7 +270,7 @@ section#About {
 section#contact {
     padding: 40px;
     text-align:left;
-    background-color: #E0F7FA; /* light sea color */
+    background-color: rgb(255, 255, 255); /* light sea color */
 }
 
 #contact h2 {
@@ -292,7 +292,32 @@ section#contact {
 
 }
 .contact-back {
-    background-color: rgba(0, 0, 0, 0.3);
-    padding: 2em;
-    border-radius: 33px;
+    background: white;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    padding: 5em;
+    
+
 }
+.contact-1 form
+{
+background-color: rgba(209, 201, 201, 0.3);
+padding: 2em;
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+}
+.contact-1
+{
+    /* flex-basis: 30%; */
+}
+.contact-2 img
+{
+height: 450px;
+width: 300;
+    /* flex-basis: 30%; */
+}
+
+
+
