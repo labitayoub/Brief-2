@@ -231,9 +231,6 @@ section#About {
     margin-left: 145px;
     margin-bottom: 55px;
 }
-.About2{
-    /* background-color: blue; */
-}
 .About12{
 
     display: flex;
@@ -248,6 +245,24 @@ section#About {
 {
     text-align: center;
 }
+.About21
+{
+    text-align: center;
+    border: solid 3px;
+    border-radius: 6px;
+    height: 160px;
+    width: 500px;
+    margin: 70px;
+    font-size: large;
+    padding: 11px;
+}
+.About22 img
+{
+height: 270px;
+width: 500px;
+margin-left: 70px;
+}
+
 section#contact {
     padding: 40px;
     text-align:left;
