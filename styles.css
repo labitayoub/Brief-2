@@ -198,7 +198,7 @@ section#collection {
 }
 
 
-/* la Page about le titre  */
+/* la Page about "le titre " */
 
 section#About {
     padding: 40px;
@@ -227,7 +227,7 @@ section#About {
     }
 }
 
-/* la page about le contenue */
+/* la page about le contenu */
 
 .About1 {
     display: flex;
@@ -278,7 +278,7 @@ section#About {
     margin-left: 70px;
 }
 
-/* la page contact le titre */
+/* la page contact "le titre" */
 
 section#contact {
     padding: 40px;
@@ -293,7 +293,7 @@ section#contact {
     text-align: center;
 }
 
-/* la page contact le contenue */
+/* la page contact le contenu */
 
 #contact p {
     font-size: 16px;
@@ -344,7 +344,7 @@ section#contact {
     background-color: #1e0f0f;
 }
 
-/* bouton d achat  */
+/* bouton d'achat  */
 .btnbuy {
     background-color: #c1be1f;
     color: rgb(255, 255, 255);
