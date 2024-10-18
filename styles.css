@@ -9,17 +9,17 @@ body {
     font-family: cursive;
     color: #195362;
     background-color: #f4f4f4;
-    
+
 }
 
 nav {
-    background-color: #0288D1; /* sea blue */
+    background-color: #0288D1;
     padding: 15px 20px;
 }
 
 .navbar {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -44,8 +44,8 @@ nav {
 }
 
 .navbar ul li a:hover {
-    color: #9602d1; /* sea blue */
-    background-color: #81D4FA; /*lighter sea blue*/
+    color: #9602d1;
+    background-color: #81D4FA;
     border-radius: 5px;
 }
 
@@ -56,7 +56,7 @@ nav {
     bottom: -3px;
     width: 100%;
     height: 3px;
-    background-color: #81D4FA; /*lighter sea blue*/
+    background-color: #81D4FA;
     transform: scaleX(0);
     transition: transform 0.3s ease;
 }
@@ -65,16 +65,15 @@ nav {
     transform: scaleX(1);
 }
 
-.brand  a{
+.brand a {
     color: white;
-    text-decoration:none;
+    text-decoration: none;
     font-size: 24px;
     font-weight: bold;
 
 }
 
 
-/* Hero section*/
 .hero {
     background-image: url('images/pikaso.jpeg');
     background-size: cover;
@@ -119,12 +118,10 @@ nav {
 }
 
 
-/* Start Gallery */
-
 section#collection {
     padding: 40px;
     text-align: center;
-    background-color: #E0F7FA; /* light sea color */
+    background-color: #E0F7FA;
 }
 
 #collection h2 {
@@ -140,7 +137,7 @@ section#collection {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    word-spacing: 6px; /* Adjust this value as needed */
+    word-spacing: 6px;
     line-height: 30px;
 
 }
@@ -157,7 +154,7 @@ section#collection {
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow:hidden;
+    overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -168,9 +165,9 @@ section#collection {
 }
 
 .art-item:hover {
-    transform: translateY(-10px);
+
     box-shadow: 0 18px 16px #00000033;
-    
+
 }
 
 #show-more {
@@ -178,7 +175,7 @@ section#collection {
 }
 
 #show-more button {
-    
+
     background-color: #1f88c1;
     color: white;
     border: none;
@@ -189,9 +186,10 @@ section#collection {
     transition: background-color 0.3s ease;
 
 }
+
 #show-more a {
-text-decoration: none;
-color: #f4f4f4;
+    text-decoration: none;
+    color: #f4f4f4;
 }
 
 #show-more button:hover {
@@ -202,7 +200,7 @@ color: #f4f4f4;
 
 section#About {
     padding: 40px;
-    text-align:left;
+    text-align: left;
     background-color: #ffffff;
 }
 
@@ -212,41 +210,52 @@ section#About {
     margin-bottom: 60px;
     text-align: center;
 }
-.Aboutglobal
-{
+
+.Aboutglobal {
     display: flex;
     flex-direction: row;
 }
 
-.About1{
+@media (max-width: 800px) {
+    .Aboutglobal {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.About1 {
     display: flex;
     flex-direction: column;
 }
-.About11
-{
-    border: solid 2px;
-    height: 35px;
-    width: 200px;
+
+.About11 {
+    width: 100%;
     text-align: center;
-    margin-left: 145px;
-    margin-bottom: 55px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
 }
-.About12{
+.About11 h3{
+    border: solid 2px;
+    width: fit-content;
+}
+
+.About12 {
 
     display: flex;
 }
-.About12 h3
-{
+
+.About12 h3 {
     color: rgb(59, 117, 243);
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     text-align: center;
 }
-.About12 p
-{
+
+.About12 p {
     text-align: center;
 }
-.About21
-{
+
+.About21 {
     text-align: center;
     border: solid 3px;
     border-radius: 6px;
@@ -256,17 +265,17 @@ section#About {
     font-size: large;
     padding: 11px;
 }
-.About22 img
-{
-height: 270px;
-width: 500px;
-margin-left: 70px;
+
+.About22 img {
+    height: 270px;
+    width: 500px;
+    margin-left: 70px;
 }
 
 section#contact {
     padding: 40px;
-    text-align:left;
-    background-color: rgb(255, 255, 255); /* light sea color */
+    text-align: left;
+    background-color: rgb(255, 255, 255);
 }
 
 #contact h2 {
@@ -283,47 +292,49 @@ section#contact {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    word-spacing: 6px; /* Adjust this value as needed */
+    word-spacing: 6px;
     line-height: 30px;
 
 }
+
 .contact-back {
     background: white;
     flex-wrap: wrap;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     gap: 90px;
     padding: 5em;
-    
+
 
 }
-.contact-1 form
-{
-background-color: rgba(225, 214, 214, 0.3);
-padding: 23px;
-border-radius: 9px;
-display: flex;
-flex-direction: column;
+
+.contact-1 form {
+    background-color: rgba(225, 214, 214, 0.3);
+    padding: 23px;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
 }
-.contact-1
-{
- width: 380px;
+
+.contact-1 {
+    width: 380px;
 }
-.contact-2 img
-{
-height: 450px;
-width: 500px;
-   
+
+.contact-2 img {
+    height: 450px;
+    width: 500px;
+
 }
-.btnsubmit{
+
+.btnsubmit {
     height: 29px;
     width: 334px;
     color: white;
     border-radius: 6px;
     background-color: #1e0f0f;
 }
-.btnbuy
-{
+
+.btnbuy {
     background-color: #c1be1f;
     color: rgb(255, 255, 255);
     border: none;
@@ -332,21 +343,28 @@ width: 500px;
     border-radius: 13px;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
-    
+    transition: 0.4s;
+
 }
-.btnbuy a{
+
+.btnbuy a {
     text-decoration: none;
 }
-input{
+
+.btnbuy:hover {
+    color: #00000033;
+    scale: 1.2;
+}
+
+input {
     height: 29px;
     width: 334px;
 }
-/* Footer */
+
 footer {
-    background-color:#0288D1 ;
+    background-color: #0288D1;
     color: rgb(0, 0, 0);
-    padding: 15px 0;
+    padding: 14px 0;
 }
 
 .footer-content {
@@ -384,6 +402,3 @@ footer p {
     margin: 0;
     font-size: 0.9em;
 }
-
-
-
